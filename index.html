@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1-0">
+        <title>BLITZ GAME WORLD</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head> 
+    <body>
+        
+    <header>
+        <div class="logo">Blitz Game World</div>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h1>Our Products</h1>
+            <div class="product-grid">
+                <!-- Example Product -->
+                <div class="product" onclick="showAnimation(this)">
+                    <img src="image1.jpg" alt="Product 1">
+                    <h2>Game 1</h2>
+                    <p>$59.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products similarly -->
+            </div>
+        </section>
+        <section id="reviews">
+            <h1>Customer Reviews</h1>
+            <p>Customer reviews will be displayed here.</p>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Follow us on social media!</p>
+        <p>&copy; 2024 Blitz Game World</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
